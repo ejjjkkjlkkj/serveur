@@ -13,6 +13,18 @@ L'administration doit être utilisable sans souris avec :
 - zoom et fort contraste Windows ;
 - navigateur en mode couleurs forcées.
 
+## Référence NVDA portable
+
+La référence NVDA principale pour les validations Windows est l'archive locale fournie pour le projet :
+
+- produit : NVDA 2026.2 ;
+- FileVersion : `2026.2.0.57664` ;
+- ProductVersion : `2026.2` ;
+- exécutables présents : `NVDA/nvda.exe` et `NVDA/nvda_noUIAccess.exe` ;
+- SHA-256 de l'archive de référence : `ab23a489c9e3d4310856fd8e77a63bb5b20d089077ec95d55d56fffac2c891fd`.
+
+Le binaire NVDA n'est pas versionné dans ce dépôt. Les tests doivent utiliser une copie locale isolée de cette archive, avec une configuration NVDA dédiée aux tests afin de ne pas dépendre du profil utilisateur.
+
 ## Règles d'interface
 
 - HTML natif et sémantique en priorité ;
